@@ -16,5 +16,3 @@ Select an item to copy convert result to your clipboard.
 #### Screenshot
 
 ![Screenshot 1](screenshot1.png)
-
-![Screenshot 2](screenshot2.png)

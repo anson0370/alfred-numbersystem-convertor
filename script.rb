@@ -3,8 +3,8 @@ originNumber = {query}
 converted = {:bin => originNumber.to_s(2), :dec => originNumber.to_s(10), :oct => originNumber.to_s(8), :hex => originNumber.to_s(16)}.map do |k, v|
   """
     <item uid=\"#{k}\" arg=\"#{v}\">
-      <title>#{v}</title>
-      <subtitle>#{k} - select to copy to clipboard</subtitle>
+      <title>#{k}: #{v}</title>
+      <subtitle>select to copy to clipboard</subtitle>
       <icon type=\"fileicon\">/Applications/Calculator.app</icon>
     </item>
   """
